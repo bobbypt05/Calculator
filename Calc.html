@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="calc.css">
+	
+</head>
+<body>
+	<script type="text/javascript" src="script.js"></script>
+	<h1 id="01"> SIMPLE CALCULATOR </h1>
+	<div id="bttn">
+	<form name="calc">
+	<input readonly id="scr" type="textbox" name="txt"><br>
+	<input class="a" type="button" name="btn" value="1" onclick="display(this.value)">
+	<input class="a" type="button" name="btn1" value="2" onclick="display(this.value)">
+	<input class="a" type="button" name="btn2" value="3" onclick="display(this.value)">
+	<input class="a" type="button" name="btn3" value="+" onclick="display(this.value)"><br>
+	<input class="a" type="button" name="btn4" value="4" onclick="display(this.value)">
+	<input class="a" type="button" name="btn5" value="5" onclick="display(this.value)">
+	<input class="a" type="button" name="btn6" value="6" onclick="display(this.value)">
+	<input class="a" type="button" name="btn7" value="-" onclick="display(this.value)"><br>
+	<input class="a" type="button" name="btn8" value="7" onclick="display(this.value)">
+	<input class="a" type="button" name="btn9" value="8" onclick="display(this.value)">
+	<input class="a" type="button" name="btn10" value="9" onclick="display(this.value)">
+	<input class="a" type="button" name="btn11" value="*" onclick="display(this.value)"><br>
+	<input class="a" type="button" name="btn12" value="CA" onclick="clearAll()">
+	<input class="a" type="button" name="btn13" value="0" onclick="display(this.value)">
+	<input class="a" type="button" name="btn14" value="C" onclick="clearOne()">
+	<input class="a" type="button" name="btn15" value="/" onclick="display(this.value)"><br>
+	<input class="a" type="button" name="btn18" value="(" onclick="display(this.value)">
+	<input class="a" type="button" name="btn19" value=")" onclick="display(this.value)">
+	<input class="a" type="button" name="btn16" value="=" onclick="txt.value=eval(txt.value)">
+	<input class="a" type="button" name="btn17" value="." onclick="display(this.value)">
+	</form>
+	</div>
+</body>
+</html>

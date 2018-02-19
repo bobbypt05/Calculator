@@ -1,0 +1,59 @@
+<style type="text/css">
+		
+		html, body 
+		{
+    	height: 100%;
+		}
+
+		html 
+		{
+    	display: table;
+    	margin: auto;
+		}
+
+		body 
+		{
+    	display: table-cell;
+    	vertical-align: middle;
+		}
+		#scr
+		{
+			text-align: right;
+			font-size: 40px;
+			width: 240px;
+			height:60px;
+			border :2px solid black;
+			margin-top: 5px;
+			margin-left: 5px;
+			border-radius:8px;
+		}
+		#bttn
+		{
+			border: 3px solid black;
+			width :255px;
+			border-radius: 7px;
+			margin: 10px;
+			background-color: #c6c6c6;
+		}
+		h1
+		{
+			color : green;
+		}
+		.a
+		{
+			height :50px;
+			width :50px;
+			border-radius:100px;
+			margin-top: 5px;
+			margin-bottom: 5px;
+			margin-right: 5px;
+			margin-left: 5px;
+			font-size: 25px;
+		}
+
+		.a:hover
+		{
+			border:2px solid white;
+		}
+
+	</style>
